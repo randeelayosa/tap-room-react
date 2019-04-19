@@ -1,5 +1,5 @@
 import React from 'react';
-import BeerList from './BeerList';
+import PropTypes from 'prop-types';
 
 function BeerMaster(props){
   return(
@@ -12,5 +12,13 @@ function BeerMaster(props){
     </div>
   );
 }
+
+BeerMaster.propTypes = {
+  brand: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  price: PropTypes.string,
+  content: PropTypes.number.isRequired,
+  type: PropTypes.string.isRequired
+};
 
 export default BeerMaster;
