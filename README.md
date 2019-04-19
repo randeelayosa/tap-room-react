@@ -63,7 +63,7 @@ _This application is a repurpose of an in-class project previously written in An
 **Component Layout**
 
 <p align="center">
-  <img src="src/assets/img/####.jpeg" width="300" height="400" title="">
+  <img src="src/assets/img/planning.jpg" width="500" height="316" title="Tap Room Component and Route Structure">
 </p>
 
 **Features Built and To Be Completed**
