@@ -1,6 +1,6 @@
 # Tap Room - React Build
 
-#### _Front End Development/React Week 1, Independent Project - Week 15, 4.19.19_
+#### _Front End Development/React Week 1 and 2, Independent Project - Week 15 and 16, 4.19.19-4.26.19_
 
 #### By _**Randee Layosa**_
 
@@ -58,13 +58,13 @@ _This application is a repurpose of an in-class project previously written in An
 | React | JS Library |
 | Webpack | bundles/compiles code |
 
-**Components and Routes Layout**
+### Components and Routes Layout
 
 <p align="center">
   <img src="src/assets/img/diagram.jpg" width="500" height="373" title="Tap Room Component and Route Structure">
 </p>
 
-**Features Built and To Be Completed**
+### Features Built and To Be Completed
 - [ ] Navigation bar
 - [ ] Component for list of beers
 - [ ] Component for admin to edit list of beers and information
