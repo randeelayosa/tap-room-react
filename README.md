@@ -58,33 +58,21 @@ _This application is a repurpose of an in-class project previously written in An
 | React | JS Library |
 | Webpack | bundles/compiles code |
 
-**Component Layout**
+**Components and Routes Layout**
 
 <p align="center">
-  <img src="src/assets/img/planning.jpg" width="500" height="316" title="Tap Room Component and Route Structure">
+  <img src="src/assets/img/diagram.jpg" width="500" height="373" title="Tap Room Component and Route Structure">
 </p>
 
 **Features Built and To Be Completed**
 - [ ] Navigation bar
-- [ ] Body component
-- [ ] Footer navigation bar
-- [ ] Dropdown menu animations in navigation bar
-- [ ] Authentication/Sign in feature to allow admin users to adjust inventory
+- [ ] Component for list of beers
+- [ ] Component for admin to edit list of beers and information
+- [ ] Authentication/Sign in feature to allow admin users
 - [ ] Page routing
 - [ ] Sass styling
 - [ ] Program has a Firebase database established
 - [ ] Program is deployed
-
-**Integration**
-  * src folder: files responsible for UI code and backend functionality
-  * Integrate Firebase to add keep track of Add and Edit functionality
-
-**UX/UI**
-  * Use CSS objects to style the page.
-
-**Polish**
-  * Delete unused dependencies in `package.json` and plugins in the config files
-  * Ensure README includes all necessary language for instructions, bugs, and documentation
 
 ## Known Bugs
 You will get an `Expected linebreaks to be 'LF' but found 'CRLF'` error if you are using a PC and run `npm run lint`. It does not break the code and will still run correctly when you run `npm run start`.
