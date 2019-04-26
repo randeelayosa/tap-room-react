@@ -6,12 +6,11 @@ import BeerList from './BeerList';
 
 function App(){
   return (
-    <div>
+    <div className='content-container'>
       <Header/>
       <Switch>
         <Route exact path='/' component={BeerList} />
       </Switch>
-      <h1 style={{height: '50px'}}></h1>
     </div>
   );
 }

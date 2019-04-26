@@ -4,9 +4,9 @@ import '../scss/styles.scss';
 
 function Header(){
   return (
-    <div>
-      <h1 className='bg-grn header'>Tap Room</h1>
-      <Link to="/">Home</Link> | <Link to="/newticket">Admin</Link>
+    <div className='header'>
+      <h1>Tap Room</h1>
+      <a><Link to="/">Home</Link></a> | <a><Link to="/admin">Admin</Link></a>
     </div>
   );
 }

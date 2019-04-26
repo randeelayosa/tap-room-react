@@ -23,14 +23,12 @@ _This application is a repurpose of an in-class project previously written in An
   * _Webpack_
   * _eslint_
   * _Sass_
-  * _AOS_
   * _JSX_
 
 ## Setup/Installation Requirements
 
 #### To open and view this project file:
-1. Go to https://########.firebaseapp.com to view the live deployed app.
-2. Or, clone this GitHub repository https://github.com/randeelayosa/tap-room-react.git to your Desktop.
+1. Or, clone this GitHub repository https://github.com/randeelayosa/tap-room-react.git to your Desktop.
   * Install git onto your computer if it isn't already.
   * To clone the project down to your desktop, open your Terminal, and enter the following commands:
   ```

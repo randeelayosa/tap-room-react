@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 function BeerMaster(props){
   return(
-    <div>
-      <h2>{props.brand}</h2>
-      <p>{props.name}</p>
+    <div className='tapped'>
+      <h3>{props.brand}</h3>
+      <h2>{props.name}</h2>
       <p>{props.price}</p>
       <p>{props.content}</p>
       <p>{props.type}</p>

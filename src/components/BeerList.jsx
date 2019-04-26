@@ -167,7 +167,7 @@ const beers =[
 
 function BeerList(){
   return(
-    <div>
+    <div className='body-container'>
       {beers.map((details, index) =>
         <BeerMaster brand={details.brand}
           name={details.name}
