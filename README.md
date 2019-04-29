@@ -39,9 +39,9 @@ _This application is a repurpose of an in-class project previously written in An
   npm run start
   ```
   * _You can use another text editor if Atom is not your preferred program._
-  * _Make sure a "node_modules" and "dist" folder are created in your project file. If it hasn't, run `npm install` again._
+  * _Make sure a "node_modules" folder is created in your project file. If it hasn't, run `npm install` again._
   * _You can then go to the link in step 1 above, or continue on to the following instructions to run the server._
-3. Go to http://localhost:8080/ in the browser of your choice. _Note: The app will automatically reload if you edit any of the code in the source files._
+2. Go to http://localhost:8080/ in the browser of your choice. _Note: The app will automatically reload if you edit any of the code in the source files._
 
 
 ## Planning
