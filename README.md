@@ -27,7 +27,8 @@ _This application is a repurpose of an in-class project previously written in An
 ## Setup/Installation Requirements
 
 #### To open and view this project file:
-1. Or, clone this GitHub repository https://github.com/randeelayosa/tap-room-react.git to your Desktop.
+1. Go to https://randeelayosa.github.io/tap-room-react/ to view the live project.
+2. Or, clone this GitHub repository https://github.com/randeelayosa/tap-room-react.git to your Desktop.
   * Install git onto your computer if it isn't already.
   * To clone the project down to your desktop, open your Terminal, and enter the following commands:
   ```
@@ -41,7 +42,7 @@ _This application is a repurpose of an in-class project previously written in An
   * _You can use another text editor if Atom is not your preferred program._
   * _Make sure a "node_modules" folder is created in your project file. If it hasn't, run `npm install` again._
   * _You can then go to the link in step 1 above, or continue on to the following instructions to run the server._
-2. Go to http://localhost:8080/ in the browser of your choice. _Note: The app will automatically reload if you edit any of the code in the source files._
+3. Go to http://localhost:8080/ in the browser of your choice. _Note: The app will automatically reload if you edit any of the code in the source files._
 
 
 ## Planning
@@ -68,7 +69,7 @@ _This application is a repurpose of an in-class project previously written in An
 - [x] Component for list of beers
 - [x] Component for admin to edit list of beers and information
 - [ ] Authentication/Sign in feature to allow admin users
-- [ ] Page routing
+- [x] Page routing
 - [x] Sass styling
 
 ## Known Bugs
