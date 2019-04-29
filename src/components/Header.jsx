@@ -9,8 +9,8 @@ function Header(){
         <h1>Tap Room</h1>
       </div>
       <div className='links'>
-        <a><Link to="/">Home</Link></a>
-        <a><Link to="/newkegform">Admin</Link></a>
+        <a><Link to='/'>Home</Link></a>
+        <a><Link to='/admin'>Admin</Link></a>
       </div>
     </div>
   );

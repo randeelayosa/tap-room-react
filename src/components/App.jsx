@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 import Header from './Header';
 import BeerList from './BeerList';
+import NewKegControl from './NewKegControl';
 
 class App extends React.Component {
 
@@ -15,7 +16,7 @@ class App extends React.Component {
   }
 
   handleAddingNewBeerToList(newBeer){
-    const newMasterBeerList = this.state.masterBeerList.slice();
+    let newMasterBeerList = this.state.masterBeerList.slice();
     newMasterBeerList.push(newBeer);
     this.setState({masterBeerList: newMasterBeerList});
   }
@@ -24,8 +25,8 @@ class App extends React.Component {
       <div className='content-container'>
         <Header/>
         <Switch>
-          <Route exact path='/' render={() =><BeerList beerList={this.masterBeerList} />}/>
-          <Route path='/newBeer' render={() =><NewKegControl onNewKegCreation={this.handleAddingNewBeerToList} />} />
+          <Route exact path='/' render={() =><BeerList beerList={this.state.masterBeerList} />}/>
+          <Route path='/admin' render={() =><NewKegControl onNewKegCreation={this.handleAddingNewBeerToList} />} />
           <Route component={Error404} />
         </Switch>
       </div>

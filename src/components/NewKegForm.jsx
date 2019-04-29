@@ -19,32 +19,32 @@ function NewKegForm(props) {
   }
 
   return(
-    <div>
+    <div className='add-form'>
       <form onSubmit={handleNewKegFormSubmission}>
         <input
           type="text"
           id="brand"
           placeholder='Brand'
           ref={(input) => {_brand = input;}}/>
-        <br>
+        <br />
         <input
           type="text"
           id="beer"
           placeholder='Beer'
           ref={(input) => {_beer = input;}}/>
-        <br>
+        <br />
         <input
           type="number"
           id="price"
           placeholder='Price'
           ref={(input) => {_price = input;}}/>
-        <br>
+        <br />
         <input
           type="number"
           id="content"
           placeholder='Alcohol Content'
           ref={(input) => {_content = input;}}/>
-        <br>
+        <br />
         <input
           type="text"
           id="type"

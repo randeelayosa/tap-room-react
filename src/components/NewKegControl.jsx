@@ -1,7 +1,7 @@
 import React from 'react';
-import NewTicketForm from './NewTicketForm';
-import PropTypes from 'prop-types';
+import NewKegForm from './NewKegForm';
 import BeerList from './BeerList';
+import PropTypes from 'prop-types';
 
 class NewKegControl extends React.Component {
 
@@ -10,6 +10,11 @@ class NewKegControl extends React.Component {
     this.state = {
       formVisibleOnPage: false
     };
+    this.handleTroubleshootingConfirmation = this.handleTroubleshootingConfirmation.bind(this);
+  }
+
+  handleTroubleshootingConfirmation(){
+    this.setState({formVisibleOnPage: true});
   }
 
   render(){
@@ -17,7 +22,7 @@ class NewKegControl extends React.Component {
     if (this.state.formVisibleOnPage){
       currentlyVisibleContent = <NewKegForm onNewKegCreation={this.props.onNewKegCreation}/>;
     } else {
-      currentlyVisibleContent = <BeerList/>
+      currentlyVisibleContent = <BeerList onTroubleshootingConfirmation={this.handleTroubleshootingConfirmation}/>
     }
     return(
       <div>

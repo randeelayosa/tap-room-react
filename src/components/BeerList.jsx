@@ -1,5 +1,6 @@
 import React from 'react';
 import BeerMaster from './BeerMaster';
+import PropTypes from 'prop-types';
 
 const beers =[
   {
@@ -165,7 +166,7 @@ const beers =[
   }
 ];
 
-function BeerList(){
+function BeerList(props){
   return(
     <div className='body-container'>
       {beers.map((details, index) =>
@@ -179,5 +180,9 @@ function BeerList(){
     </div>
   )
 }
+
+BeerList.propTypes = {
+beerList: PropTypes.array
+};
 
 export default BeerList;

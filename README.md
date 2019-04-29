@@ -9,12 +9,11 @@
 
 ## Description
 
-_This application is a repurpose of an in-class project previously written in Angular. It now uses the React library and Firebase cloud database._
+_This application is a repurpose of an in-class project previously written in Angular, now using the React library._
 
 ## Preview
 <p align="center">
-<img src="src/assets/img/######.png" width="200" height="152" title="">
-<img src="src/assets/img/######.png" width="200" height="152" title="">
+<img src="src/assets/img/preview.png" width="500" height="504" title="">
 </p>
 
 ## Technologies Used
@@ -65,14 +64,12 @@ _This application is a repurpose of an in-class project previously written in An
 </p>
 
 ### Features Built and To Be Completed
-- [ ] Navigation bar
-- [ ] Component for list of beers
-- [ ] Component for admin to edit list of beers and information
+- [x] Navigation bar
+- [x] Component for list of beers
+- [x] Component for admin to edit list of beers and information
 - [ ] Authentication/Sign in feature to allow admin users
 - [ ] Page routing
-- [ ] Sass styling
-- [ ] Program has a Firebase database established
-- [ ] Program is deployed
+- [x] Sass styling
 
 ## Known Bugs
 You will get an `Expected linebreaks to be 'LF' but found 'CRLF'` error if you are using a PC and run `npm run lint`. It does not break the code and will still run correctly when you run `npm run start`.
