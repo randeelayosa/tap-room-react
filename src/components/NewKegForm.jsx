@@ -16,11 +16,13 @@ function NewKegForm(props) {
     _price.value = '';
     _content.value = '';
     _type.value = '';
+    location.hash = '/';
   }
 
   return(
     <div className='add-form'>
       <form onSubmit={handleNewKegFormSubmission}>
+        <h1>Add A Tapped Keg</h1>
         <input
           type="text"
           id="brand"

@@ -8,7 +8,7 @@ class NewKegControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      formVisibleOnPage: false
+      formVisibleOnPage: true
     };
     this.handleTroubleshootingConfirmation = this.handleTroubleshootingConfirmation.bind(this);
   }
@@ -26,7 +26,7 @@ class NewKegControl extends React.Component {
     }
     return(
       <div>
-        {currentlyVisibleContent}
+        <div>{currentlyVisibleContent}</div>
       </div>
     );
   }
