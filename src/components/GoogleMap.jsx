@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import React from 'react';
 
 function GoogleMap() {
   return(
