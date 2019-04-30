@@ -4,6 +4,8 @@ import Error404 from './Error404';
 import Header from './Header';
 import BeerList from './BeerList';
 import NewKegControl from './NewKegControl';
+import Contact from './Contact';
+import GoogleMap from './GoogleMap';
 import '../scss/styles.scss';
 
 class App extends React.Component {
@@ -189,7 +191,8 @@ class App extends React.Component {
         <Header/>
         <Switch>
           <Route exact path='/' render={() =><BeerList beerList={this.state.masterBeerList} />}/>
-          <Route path='/admin' render={() =><NewKegControl onNewKegCreation={this.handleAddingNewBeerToList} />} />
+          <Route path='/admin' render={() =><NewKegControl onNewKegCreation={this.handleAddingNewBeerToList} />}/>
+          <Route path='/contact' render={() =><Contact/>}/>
           <Route component={Error404} />
         </Switch>
       </div>
